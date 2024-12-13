@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Led Thái Dương</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-left"></div>
+                    <div class="col-right">
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="headerBottom__logo">
+                        <img src="" alt="">
+                    </div>
+                    <div class="headerBottom__search">
+                        <form action="">
+                            <div class="row">
+                                <input type="search">
+                                <button type="button"></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="headerBottom__contact">
+                        <ul>
+                            <li>
+                                <span></span>
+                                <span></span>
+                            </li>
+                            <li>
+                                <span></span>
+                                <span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="nav__category">
+                    <div class="category__title">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="category__list">
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav__menu">
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="main__slide">
+            <img src="" alt="">
+        </div>
+        <div class="main__service">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="" alt="">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                    <div class="col">
+                        <img src="" alt="">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+
+                    <div class="col">
+                        <img src="" alt="">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+
+                    <div class="col">
+                        <img src="" alt="">
+                        <h4></h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__detail">
+            <div class="container">
+                <div class="row">
+                    <div class="mainDetail__sidebar">
+                        <div class="sidebar__endow">
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                            <div>...</div>
+                            <div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="sidebar__bestseller">
+                            <div class="bestseller__title">
+                                <span></span>
+                                <h2></h2>
+                            </div>
+                            <div class="bestseller__list">
+                                <div class="bestsellerList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bestsellerList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bestsellerList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bestsellerList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar__discount">
+                            <div class="discount__title">
+                                <span></span>
+                                <h2></h2>
+                            </div>
+                            <div class="discount__list">
+                                <div class="discountList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discountList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discountList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discountList__product">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                            <div>
+                                                <button type="button"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar__news">
+                            <div class="news__title">
+                                <span></span>
+                                <h2></h2>
+                            </div>
+                            <div class="news__list">
+                                <div class="newsList__post">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newsList__post">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newsList__post">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newsList__post">
+                                    <div class="row">
+                                        <div><img src="" alt=""></div>
+                                        <div>
+                                            <h3></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mainDetail__home">
+                        <div class="home__one">
+                            <div class="homeOne__title">
+                                <div class="row">
+                                    <div class="homeOneTitle__tabs">
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="homeOneTitle__dots">
+                                        <div class="row">
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="homeOne__list">
+                                <div class="row">
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__two">
+                            <div class="homeTwo__title">
+                                <div class="row">
+                                    <div class="homeTwoTitle__tabs">
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="homeTwoTitle__dots">
+                                        <div class="row">
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="homeTwo__list">
+                                <div class="row">
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                    <div class="products">
+                                        <img src="" alt="">
+                                        <h3></h3>
+                                        <p></p>
+                                        <div>
+                                            <button type="button"></button>
+                                        </div>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__three">
+
+                        </div>
+                        <div class="home__four"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__top"></div>
+        <div class="footer__middle"></div>
+        <div class="footer__bottom"></div>
+    </footer>
+</body>
+
+</html>
