@@ -1,0 +1,14 @@
+@import url('header.css');
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+}

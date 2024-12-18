@@ -1,0 +1,34 @@
+.header__top{
+    background-image: url('../img/bg-header-top.jpg');
+    background-size: contain;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.header__top .row{
+    justify-content: space-between;
+}
+
+.headerTop__welcome{}
+
+.headerTop__socialNetwork{}
+
+.headerTop__socialNetwork ul{
+    /* mất đi dấu chấm */
+    list-style: none;
+    /* đẩy nội dung bên ngoài div */
+    margin: 0;
+    /* đẩy nội dung bên trong div */
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.headerTop__socialNetwork ul li{}
+
+.headerTop__socialNetwork ul li a{
+    color: rgb(0, 255, 0);
+    /* tắt dấu gạch chân */
+    text-decoration: none;
+}
