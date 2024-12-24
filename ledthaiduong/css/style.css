@@ -1,0 +1,13 @@
+@import url('header.css');
+
+body{
+    margin: 0;
+}
+.container{
+    width: 1140px; /*độ rộng chuẩn*/
+    margin: auto; /*canh đều 2 bên*/
+}
+
+.row{
+    display: flex;
+}
