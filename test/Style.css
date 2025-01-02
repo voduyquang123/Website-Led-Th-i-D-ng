@@ -1,0 +1,219 @@
+/* Reset CSS cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+#main-header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info,
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info span {
+    margin-right: 20px;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.header-main {
+    padding: 20px 0;
+}
+
+.header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    flex-grow: 1; /* Để input chiếm hết không gian còn lại */
+}
+
+.search-box button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Navigation */
+#main-nav {
+    background-color: #007bff;
+    color: white;
+}
+
+#main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#main-nav li {
+    margin: 0 15px;
+    position: relative;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+    transition: color 0.3s;
+}
+#main-nav a:hover{
+    color: yellow;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Responsive */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header-main .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-box{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .search-box input{
+        width: calc(100% - 45px);
+    }
+    #main-nav .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #main-nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%; /* Đảm bảo menu chiếm hết chiều rộng */
+        background-color: #007bff; /* Giữ màu nền */
+        margin-top: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    #main-nav.active ul {
+        display: flex;
+    }
+    #main-nav li {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* đường kẻ phân cách */
+    }
+    #main-nav li a{
+        padding: 10px;
+    }
+    .dropdown .dropdown-menu{
+        position: relative;
+        box-shadow: none;
+        width: 100%;
+        background-color: #3498db;
+    }
+    .dropdown:hover .dropdown-menu, #main-nav.active .dropdown-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .dropdown-menu li a{
+        color: white;
+    }
+}
