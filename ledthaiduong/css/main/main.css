@@ -383,7 +383,7 @@
 .promo {
   background-color: #fff;
   border: 1px solid #ddd;
-  padding: 8px; /* Thêm padding để tạo không gian xung quanh phần này */
+  padding: 8px; /* Thêm padding để tạo không gian xung quanh */
   clear: both; /* Đảm bảo phần promo nằm dưới các phần tử khác */
   margin-top: 15px; /* Khoảng cách giữa phần promo và phần trên */
 }
