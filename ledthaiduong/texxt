@@ -1,0 +1,101 @@
+.info-item {
+  width: 23%; /* Chia đều thành 4 cột */
+  text-align: center; /* Căn giữa các phần tử */
+  padding: 10px;
+  border: 1px solid #ccc; /* Thêm đường viền cho các cột */
+  border-radius: 8px; /* Làm tròn các góc */
+  background-color: white; /* Nền sáng cho mỗi item */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Căn giữa các phần tử trong item */
+  justify-content: center; /* Đảm bảo các thẻ p nằm dưới hình ảnh */
+}
+
+/* Đảm bảo hình ảnh nhỏ lại và căn giữa */
+.info-item img {
+  width: 100px; /* Kích thước nhỏ cho hình ảnh */
+  height: auto;
+  /* margin-bottom: px; Khoảng cách giữa hình ảnh và text */
+}
+
+/* Cập nhật cho thẻ p */
+.info-item p {
+  font-size: 20px; /* Kích thước chữ nhỏ */
+  color: #333;
+}
+
+/* Thêm hiệu ứng hover cho info-item */
+.info-item:hover {
+  background-color: #e0f7e0; /* Màu nền khi hover */
+  transform: scale(1.05); /* Tăng kích thước một chút khi hover */
+  transition: all 0.3s ease;
+}
+/* Áp dụng cho tất cả các thẻ <p> đầu tiên trong mỗi .info-item */
+.info-item p:first-of-type {
+  font-weight: 600; /* Làm cho chữ đậm hơn */
+  /* letter-spacing: 0px; Tăng khoảng cách giữa các chữ cái */
+  font-family: "Arial", sans-serif; /* Chọn font có độ dày nét chữ lớn */
+}
+
+/*     
+ /*  info-section */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* Cập nhật cho các item trong info-section */
+/* Section chứa 4 cột thông tin */
+.info-section {
+  background-color: #ffffff; /* Màu nền nhạt, bạn có thể đổi */
+  padding: 30px 0; /* Khoảng cách trên-dưới */
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between; /* Giãn đều các cột */
+  align-items: center;
+  max-width: 1200px; /* Độ rộng tối đa, tuỳ ý */
+  margin: 0 auto; /* Canh giữa */
+  padding: 0 15px; /* Khoảng trống hai bên */
+}
+
+/* Mỗi cột */
+.info-box {
+  flex: 1; /* Chia đều 4 cột */
+  text-align: center; /* Canh giữa nội dung */
+  margin: 0 10px; /* Khoảng cách giữa các cột */
+}
+
+/* Icon hoặc hình ảnh */
+.info-box i {
+  font-size: 36px; /* Kích thước icon */
+  color: #4caf50; /* Màu icon */
+  margin-bottom: 10px;
+}
+.info-box img {
+  max-width: 80px; /* Nếu dùng ảnh, set kích thước */
+  margin-bottom: 10px;
+}
+
+/* Tiêu đề và mô tả */
+.info-box h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+.info-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media (max-width: 1059px) {
+  .info-container {
+    flex-direction: column; /* Xếp dọc */
+  }
+  .info-box {
+    margin: 80px 0; /* Tạo khoảng cách giữa các box khi xếp dọc */
+  }
+}

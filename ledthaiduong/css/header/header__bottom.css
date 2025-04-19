@@ -1,47 +1,52 @@
-
 /*header__bottom*/
-.header__bottom{
-    padding: 20px;
+.header__bottom {
+  padding: 20px;
 }
 
 .headerBottom__logo,
-.headerBottom__contact{
-    width: 25%;
+.headerBottom__contact {
+  width: 25%;
 }
 
-.headerBottom__search{
-    width: 50%;
+.headerBottom__search {
+  width: 100%;
 }
 
-.headerBottom__search > div{
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
+.headerBottom__search > div {
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
-.headerBottom__search input{
-    width: 100%;
-    height: 50px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 2px solid green;
-    outline: none;
+.headerBottom__search input {
+  width: 100%;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid rgb(49, 166, 49);
+  outline: none;
 }
 
-
-.headerBottom__search button{
-    background-color: green;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 1px solid green;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    color: white;
-    cursor: pointer;
+.headerBottom__search button {
+  background-color: rgb(49, 166, 49);
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid rgb(59, 190, 59);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  cursor: pointer;
+  width: 90px;
+  height: auto;
 }
 
-.headerBottom__search button:hover{
-    color: black;
+.headerBottom__search button img {
+  width: 30px; /* Đặt kích thước ảnh nhỏ lại */
+  height: auto;
+}
+
+.headerBottom__search button:hover {
+  color: black;
 }

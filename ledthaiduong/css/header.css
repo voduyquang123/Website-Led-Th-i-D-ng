@@ -1,5 +1,6 @@
-@import url('header/header__top.css');
-@import url('header/header__bottom.css');
-@import url('header/contact.css');
-
-
+@import url("header/header__top.css");
+@import url("header/header__bottom.css");
+@import url("header/contact.css");
+@import url("nav/navigation.css");
+@import url("main/main.css");
+@import url("footer/footer.css");
